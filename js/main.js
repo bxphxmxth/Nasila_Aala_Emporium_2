@@ -167,28 +167,31 @@ function div_show2() {
     })
   }, false);
 
-  // zoom 
+  // zoom image cards
 
   let img1 = document.getElementsByClassName("card-img-top")[0];
   console.log(img1);
 
-  // let zoom = () => {
-  //   img1.style.height
-  // }
+  
 
-  // img1.addEventListener("mouseover", () =>{
+ let tabImg = Array.from(document.getElementsByClassName("card-img-top"));
+ console.log(tabImg);
 
-  //   img1.style.height = "300px";
-  //   img1.style.width = "300px"
-  // })
+ tabImg.forEach(element => {
 
-  // img1.addEventListener("mouseout", () =>{
+  element.addEventListener("mouseover", () =>{
 
-  //   img1.style.height = "100%";
-  //   img1.style.width = "100%"
-  // })
+    
+    element.style.transform = "scale(1.2)";
+    
+  })
+
+  element.addEventListener("mouseout", () =>{
+
+   
+    element.style.transform = "scale(100%)"
+  })
 
 
 
-
- 
+ });
