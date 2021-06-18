@@ -1,0 +1,149 @@
+@media (min-width : 320px) and (max-width: 1350px){
+
+     .section2{
+
+          margin-top: 3%;
+
+          .LivingSaleClothes{
+               display: flex;
+               justify-content: space-between;
+               flex-direction: column;
+               text-align: center;
+
+               .img_1{
+                    
+                    img{
+                         width: 90%;
+                         position: inherit;
+                         height: 250px;
+                    }
+
+                    p{
+                         position: absolute;
+                         color: white;
+                         font-size: 50px;
+                         
+                         
+
+                    }
+
+                    .living-room{
+                         margin-left: auto;
+                         margin-right: auto;
+                         left: 0;
+                         right: 0;
+                         text-align: center;
+                         margin-top: 5%;
+                     
+                    
+                   
+                    }
+
+                    .sale-items{
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    margin-top: 5%;
+                    }
+
+
+                    .clothes{
+                         margin-left: auto;
+                         margin-right: auto;
+                         left: 0;
+                         right: 0;
+                         text-align: center;
+                         margin-top: 5%;
+                    }
+
+
+                    hr{
+                         width: 400px;
+                         margin-top: 9%;
+                         position: absolute;
+                         margin-left: 5%;
+                         display: none;
+                    }
+
+
+
+
+
+               }
+
+          }
+     }
+
+}
+
+@media (min-width : 1351px){
+     
+     .section2{
+
+          margin-top: 3%;
+
+          .LivingSaleClothes{
+               display: flex;
+               justify-content: space-between;
+
+               .img_1{
+
+                    img{
+                         width: 90%;
+                         position: inherit;
+                         height: 250px;
+                    }
+
+                    p{
+                         position: absolute;
+                         color: white;
+                         font-size: 50px;
+                         
+                         
+
+                    }
+
+                    .living-room{
+
+                     margin-left: 5%;
+                     margin-top: 5%;
+                    
+                   
+                    }
+
+                    .sale-items{
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    margin-top: 5%;
+                    }
+
+
+                    .clothes{
+                         margin-left: 10%;
+
+                     margin-top: 5%;
+                    }
+
+
+                    hr{
+                         width: 300px;
+                         margin-top: 9%;
+                         position: absolute;
+                         margin-left: 5%;
+                    }
+
+
+
+
+
+               }
+
+          }
+     }
+
+}

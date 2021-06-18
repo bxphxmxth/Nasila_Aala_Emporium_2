@@ -1,0 +1,327 @@
+.section5{
+
+    h5{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        height: 300px;
+      }
+      .carousel {
+        background: #fff;
+       
+        // border-radius: 5px;
+        width: 100%;
+        // height: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+      
+        position: relative;
+      }
+      .slider {
+        display: flex;
+        height: 100%;
+        width: 80%;
+        flex-shrink: 0;
+        transition: all 0.5s;
+      
+      }
+      section {
+        flex-basis: 20%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    
+        img{
+            width: 80%;
+            background-size: contain;
+            height: 100%;
+            
+            height: 70%;
+        }
+      }
+      
+        
+      .controls{
+          display: flex;
+          justify-content: center;
+          // width: 10%;
+          justify-content: space-around;
+          // margin-left: 45%;
+    
+          button{
+              border-radius: 30px;
+              // height: 30px;
+              // width: 30px;
+              border: black solid;
+          }
+    
+      }
+
+
+
+}
+
+@media (min-width : 320px) and (max-width: 508px){
+
+
+
+  
+  .section5{
+
+    h5{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        height: 300px;
+      }
+      .carousel {
+        background: #fff;
+       
+        // border-radius: 5px;
+        width: 100%;
+        // height: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+      
+        position: relative;
+      }
+      .slider {
+        display: flex;
+        height: 100%;
+        width: 80%;
+        flex-shrink: 0;
+        transition: all 0.5s;
+      
+      }
+      section {
+        flex-basis: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    
+        img{
+            width: 80%;
+            background-size: contain;
+            height: 100%;
+            
+            height: 70%;
+        }
+      }
+      
+        
+      .controls{
+          margin-left: 35%;
+          width: 30%;
+    
+          button{
+            
+              height: 20px;
+              width: 20px;
+              border: black solid;
+          }
+    
+      }
+
+
+
+}
+
+}
+
+
+
+@media (min-width: 509px) and (max-width: 1000px){
+  .section5{
+
+    h5{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        height: 300px;
+      }
+      .carousel {
+        background: #fff;
+       
+        // border-radius: 5px;
+        width: 100%;
+        // height: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+      
+        position: relative;
+      }
+      .slider {
+        display: flex;
+        height: 100%;
+        width: 80%;
+        flex-shrink: 0;
+        transition: all 0.5s;
+      
+      }
+      section {
+        flex-basis: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    
+        img{
+            width: 80%;
+            background-size: contain;
+            height: 100%;
+            
+            height: 70%;
+        }
+      }
+      
+        
+      .controls{
+          margin-left: 35%;
+          width: 30%;
+    
+          button{
+            
+              height: 20px;
+              width: 20px;
+              border: black solid;
+          }
+    
+      }
+
+
+
+}
+}
+
+@media (min-width: 580px) and (max-width: 1000px){
+  .section5{
+
+    h5{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 50%;
+        margin: 20px auto;
+        height: 300px;
+      }
+      .carousel {
+        background: #fff;
+       
+        // border-radius: 5px;
+        width: 100%;
+        // height: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+      
+        position: relative;
+      }
+      .slider {
+        display: flex;
+        height: 100%;
+        width: 80%;
+        flex-shrink: 0;
+        transition: all 0.5s;
+      
+      }
+      section {
+        flex-basis: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    
+        img{
+            width: 80%;
+            background-size: contain;
+            height: 100%;
+            
+            height: 70%;
+        }
+      }
+      
+        
+      .controls{
+          margin-left: 35%;
+          width: 30%;
+    
+          button{
+            
+              height: 20px;
+              width: 20px;
+              border: black solid;
+          }
+    
+      }
+
+
+
+}
+}
+
+@media (min-width : 1351px){
+     
+  .controls{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    justify-content: space-around;
+    margin-left: 45%;
+
+    button{
+        border-radius: 30px;
+        height: 30px;
+        width: 30px;
+        border: black solid;
+    }
+
+}
+
+}
