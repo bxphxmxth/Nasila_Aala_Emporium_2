@@ -108,21 +108,14 @@ function div_show2() {
   let myNav = document.getElementsByClassName("nav")[0];
   console.log(myNav);
 
-  window.onscroll = function () { 
-      "use strict";
-      if (document.body.scrollTop = 0 ) {
-          
-          
-          myNav.setAttribute("class","nav");
-          
-      } 
-      else {
-        myNav.setAttribute("class","changeNav");
-    //       myNav.classList.add("nav-transparent");
-    //       myNav.classList.remove("nav-colored");
-    //   }
-  }}
-
+  let navbar = document.getElementsByTagName("header")[0]
+  window.addEventListener("scroll", () =>{
+      if(window.scrollY > 1){
+          navbar.classList.add('changeNav');
+      }else {
+          navbar.classList.remove('changeNav')
+      }
+  });
 
 
 
@@ -168,11 +161,6 @@ function div_show2() {
   }, false);
 
   // zoom image cards
-
-  let img1 = document.getElementsByClassName("card-img-top")[0];
-  console.log(img1);
-
-  
 
  let tabImg = Array.from(document.getElementsByClassName("card-img-top"));
  console.log(tabImg);
