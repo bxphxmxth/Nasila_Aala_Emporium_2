@@ -139,7 +139,7 @@ function div_show2() {
       direction = 1;
       slider.appendChild(slider.firstElementChild);
     }
-    carousel.style.justifyContent = 'flex-end';    
+    carousel.style.justifyContent = 'flex-start';    
     slider.style.transform = 'translate(20%)';  
     
   });
@@ -171,13 +171,15 @@ function div_show2() {
 
     
     element.style.transform = "scale(1.2)";
+    element.style.transition = "all 1s"
     
   })
 
   element.addEventListener("mouseout", () =>{
 
    
-    element.style.transform = "scale(100%)"
+    element.style.transform = "scale(100%)";
+
   })
 
 
