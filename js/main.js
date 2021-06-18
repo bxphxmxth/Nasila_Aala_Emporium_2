@@ -166,3 +166,29 @@ function div_show2() {
       slider.style.transition = 'all 0.5s';
     })
   }, false);
+
+  // zoom 
+
+  let img1 = document.getElementsByClassName("card-img-top")[0];
+  console.log(img1);
+
+  // let zoom = () => {
+  //   img1.style.height
+  // }
+
+  // img1.addEventListener("mouseover", () =>{
+
+  //   img1.style.height = "300px";
+  //   img1.style.width = "300px"
+  // })
+
+  // img1.addEventListener("mouseout", () =>{
+
+  //   img1.style.height = "100%";
+  //   img1.style.width = "100%"
+  // })
+
+
+
+
+ 
