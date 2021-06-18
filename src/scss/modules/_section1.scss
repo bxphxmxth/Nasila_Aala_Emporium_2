@@ -53,6 +53,28 @@
 //      }
 // }
 
+@media (min-width : 320px) and (max-width: 370px){
+               .section1{
+                    margin-top: 5%;
+               }
+
+}
+
+@media (min-width : 371px) and (max-width: 500px){
+     .section1{
+          margin-top: 5%;
+     }
+
+}
+
+
+@media (min-width : 501px) and (max-width: 700px){
+     .section1{
+          margin-top: 5%;
+     }
+
+}
+
 
 @media (min-width : 320px) and (max-width: 1350px){
 
@@ -60,6 +82,8 @@
           margin: 0;
      }
      .section1{
+
+          // margin-top: ;
      
           .divShop{
                background-color: #F3F3F3;
